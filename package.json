@@ -1,0 +1,22 @@
+{
+  "name": "basketball-site",
+  "version": "1.0.0",
+  "description": "NWA Basketball Thursday Night Program ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattnwa/basketball-site.git"
+  },
+  "author": "Matt Luker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattnwa/basketball-site/issues"
+  },
+  "homepage": "https://github.com/mattnwa/basketball-site#readme",
+  "dependencies": {
+  
+  }
+}
