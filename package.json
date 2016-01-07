@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/mattnwa/basketball-site#readme",
   "dependencies": {
-  
+    "jade": "^1.11.0"
   }
 }
