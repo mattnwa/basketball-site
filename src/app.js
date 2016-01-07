@@ -1,15 +1,16 @@
 "use strict";
 
 var express = require("express"),
+    jade = require('jade'),
     posts = require('./posts.json');
 
 var app = express();
 
 app.set('view engine', 'jade');
-app.set('views', __dirname + './templates');
+app.set('views', __dirname + '/templates');
 
 app.get('/', function(req, res){
-  res.send("<h1>this is the express app</h1>");
+  res.render('index.jade');
 });
 
 app.get('/blog/:title?', function(req,res){
